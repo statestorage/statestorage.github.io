@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="jquery.mosaicflow.min.js"></script>
 <style>
@@ -11,26 +15,29 @@
   height: auto;
 }
 .mosaicflow__item p {
-		position:absolute;
-		bottom:0;
-		left:0;
-		width:100%;
-		margin:0;
-		padding:5px;
-		background:hsla(0,0%,0%,.5);
-		color:#fff;
-		font-size:14px;
-		text-shadow:1px 1px 1px hsla(0,0%,0%,.75);
-		opacity:0;
-		-webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-		   -moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-		     -o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-		        transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-		}
-	.mosaicflow__item:hover p {
-		opacity:1;
-		}
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  margin:0;
+  padding:5px;
+  background:hsla(0,0%,0%,.5);
+  color:#fff;
+  font-size:14px;
+  text-shadow:1px 1px 1px hsla(0,0%,0%,.75);
+  opacity:0;
+  -webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+     -moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+       -o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+          transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+}
+.mosaicflow__item:hover p {
+	opacity:1;
+}
 </style>
+</head>
+<body>
+
 <div class="clearfix mosaicflow">
   <div class="mosaicflow__item">
     <img src="rsz_fullsizer.jpg" width="600" height="244" alt="">
@@ -65,3 +72,5 @@
     <p>New Year Postcard from Tsiri and Ciyar</p>
   </div>
 </div>
+</body>
+</html>
